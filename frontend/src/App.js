@@ -51,7 +51,7 @@ function App() {
       <Route
           path="/user/:id"
           element={isAuthenticated ? <UserProfile /> : <Login />}
-        /> 
+      /> 
       <Route
         path='search' element={isAuthenticated ? <Search /> : <Login />}
       />
